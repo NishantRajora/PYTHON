@@ -27,5 +27,5 @@ length = len(car)
 print(length)
 
 c = car.copy()
-print(c) 
+print(c)
 

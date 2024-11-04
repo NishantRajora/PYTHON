@@ -10,7 +10,7 @@ print(s.index("a"))
 print(s.find("a"))
 
 
-print(s[2:5])
+print(s[2:5] )
 print(s[-4:-1])
 print(s[: 10: 3])
 
