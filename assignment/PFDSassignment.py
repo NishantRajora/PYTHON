@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 file_path = "D:\\python\\assignment\\Automobile_data.csv"
-
 df = pd.read_csv(file_path, encoding='ISO-8859-1')
 first_five = df.head()
 last_five = df.tail()
@@ -12,9 +11,10 @@ print(first_five)
 print("Last five rows:")
 print(last_five)
 print()
+
 #ex2
 df.replace(['?', 'n.a'], np.nan, inplace=True)
-print()
+
 #ex3
 most_expensive_row = df.loc[df['price'].idxmax()]
 print(most_expensive_row)
